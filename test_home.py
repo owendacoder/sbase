@@ -9,4 +9,5 @@ class HomeTest(BaseCase):
         # click on "Sign in"
         self.click('//*[@id="nav-link-accountList"]/span')
         print(self.get_title())
+        # a little comment here
         self.assert_title("Amazon Sign-In")
